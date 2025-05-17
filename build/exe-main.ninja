@@ -1,0 +1,21 @@
+cc = gcc
+flags = -Wall -Wextra -g
+includes = -I"./vendor/SDL3/include" -I"./vendor/SDL3_image/include" -I"./src"
+libs = -L"./vendor/SDL3/lib" -L"./vendor/SDL3_image/lib" -lSDL3 -lSDL3_image -luser32 -lgdi32 -lshell32 -lwinmm -lsetupapi -lversion -limm32 -lole32
+cwd = C$:\Users\Lewboski\Desktop\Programming\learn\3d-renderer
+builddir = C$:\Users\Lewboski\Desktop\Programming\learn\3d-renderer\build
+target = $builddir/main.exe
+
+rule link
+  command = $cc $flags -o $out $in $libs
+
+rule compile
+  command = $cc $flags $includes -c $in -o $out
+
+build $builddir/main.o: compile $cwd/src/main.c
+build $builddir/model.o: compile $cwd/src/model.c
+build $builddir/texture.o: compile $cwd/src/texture.c
+build $builddir/renderer.o: compile $cwd/src/renderer.c
+build $target: link $builddir/main.o $builddir/model.o $builddir/texture.o $builddir/renderer.o
+
+default $target

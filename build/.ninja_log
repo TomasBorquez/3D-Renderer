@@ -1,0 +1,6 @@
+# ninja log v6
+5	447	7692090003445283	C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/model.o	41088283cf558402
+12	466	7692090003515265	C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/renderer.o	b59e249cd0a44725
+9	475	7692090003485257	C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/texture.o	39d3b9abb4d03a64
+1	676	7692090003405261	C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/main.o	a97b3144769d1ffa
+676	811	7692090010163533	C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/main.exe	ee5f4429cc0bcf3b

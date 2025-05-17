@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer",
+    "command": "gcc -Wall -Wextra -g -I\"./vendor/SDL3/include\" -I\"./vendor/SDL3_image/include\" -I\"./src\" -c C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer/src/main.c -o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/main.o",
+    "file": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/src/main.c",
+    "output": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/main.o"
+  },
+  {
+    "directory": "C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer",
+    "command": "gcc -Wall -Wextra -g -I\"./vendor/SDL3/include\" -I\"./vendor/SDL3_image/include\" -I\"./src\" -c C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer/src/model.c -o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/model.o",
+    "file": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/src/model.c",
+    "output": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/model.o"
+  },
+  {
+    "directory": "C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer",
+    "command": "gcc -Wall -Wextra -g -I\"./vendor/SDL3/include\" -I\"./vendor/SDL3_image/include\" -I\"./src\" -c C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer/src/texture.c -o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/texture.o",
+    "file": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/src/texture.c",
+    "output": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/texture.o"
+  },
+  {
+    "directory": "C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer",
+    "command": "gcc -Wall -Wextra -g -I\"./vendor/SDL3/include\" -I\"./vendor/SDL3_image/include\" -I\"./src\" -c C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer/src/renderer.c -o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/renderer.o",
+    "file": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/src/renderer.c",
+    "output": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/renderer.o"
+  },
+  {
+    "directory": "C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer",
+    "command": "gcc -Wall -Wextra -g -o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/main.exe C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/main.o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/model.o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/texture.o C:\\Users\\Lewboski\\Desktop\\Programming\\learn\\3d-renderer\\build/renderer.o -L\"./vendor/SDL3/lib\" -L\"./vendor/SDL3_image/lib\" -lSDL3 -lSDL3_image -luser32 -lgdi32 -lshell32 -lwinmm -lsetupapi -lversion -limm32 -lole32",
+    "file": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/main.o",
+    "output": "C:/Users/Lewboski/Desktop/Programming/learn/3d-renderer/build/main.exe"
+  }
+]
